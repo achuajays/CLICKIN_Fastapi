@@ -1,9 +1,10 @@
 from fastapi import FastAPI, UploadFile, File, HTTPException
 import base64
 from groq import Groq
+from cors_config import add_cors
 
 app = FastAPI()
-
+add_cors(app)
 # Initialize the Groq client (ensure you have your credentials/config if required)
 client = Groq()
 
