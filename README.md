@@ -110,6 +110,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [FastAPI](https://fastapi.tiangolo.com/)
 - [Groq API](#) *(Replace with actual documentation URL if available)*
-```
+
 
 
